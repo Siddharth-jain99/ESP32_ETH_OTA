@@ -15,6 +15,7 @@ To use the SimpleLoginETHServer library, include the header file in your sketch 
 
 ## Hardware Required
 ESP32
+
 LAN 8720 Phy Ethernet Board
 
 ## Here's a basic example:
