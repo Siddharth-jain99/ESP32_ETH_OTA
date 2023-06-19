@@ -64,7 +64,7 @@ To install the SimpleLoginETHServer library, you can download the latest release
 
 ## TO-DO
 1. Add comments in the code
-2. Add connection circuit in readme
+~~2. Add connection circuit in readme~~
 3. Add Login Rate Limiting to preven brute forcing
 4. Add user defined host name, username and password
 5. Add HTTPS instead of HTTP
