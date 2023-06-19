@@ -15,13 +15,26 @@ To use the SimpleLoginETHServer library, include the header file in your sketch 
 
 ## Hardware Required
 ESP32
-
 LAN 8720 Phy Ethernet Board
+
+## Connections
+LAN 8720 pin out
+VCC 3V3
+GND GND
+MDIO 18
+MDC 23
+RETCLK/nINT 17
+CRS 27
+RX0 25
+RX1 26
+TX_EN 21
+TX0 19
+TX1 22
+NC -
 
 ## Here's a basic example:
 
 ```
-
 #include "SimpleLoginETHServer.h"
 
 SimpleLoginETHServer myServer;
@@ -33,7 +46,6 @@ void setup() {
 void loop() {
   myServer.handleClient();  // Handle client requests
 }
-
 ```
 
 The username and password are used for the login system. The host name is used for the mDNS responder, which allows you to access the ESP32 by name in your local network.
